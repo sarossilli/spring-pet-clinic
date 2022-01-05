@@ -1,4 +1,4 @@
-package li.sarossil.springpetclinic.model;
+package li.sarossilli.springpetclinic.model;
 
 public class Person {
     private String firstName;
