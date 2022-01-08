@@ -1,4 +1,4 @@
-package li.sarossilli.springpetclinic.model;
+package li.sarossil.springpetclinic.model;
 
 import java.time.LocalDate;
 

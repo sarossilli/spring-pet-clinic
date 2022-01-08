@@ -1,4 +1,4 @@
-package li.sarossilli.springpetclinic;
+package li.sarossil.springpetclinic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
