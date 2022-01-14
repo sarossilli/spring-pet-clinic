@@ -1,11 +1,11 @@
 package li.sarossil.springpetclinic.services.map;
 
 import li.sarossil.springpetclinic.model.Owner;
-import li.sarossil.springpetclinic.services.CrudService;
+import li.sarossil.springpetclinic.services.OwnerService;
 
 import java.util.Set;
 
-public class OwnerServiceMapImpl extends AbstractMap<Owner,Long> implements CrudService<Owner,Long> {
+public class OwnerServiceMapImpl extends AbstractMap<Owner,Long> implements OwnerService {
     @Override
     public Set<Owner> findAll() {
         return super.findAll();
@@ -31,5 +31,10 @@ public class OwnerServiceMapImpl extends AbstractMap<Owner,Long> implements Crud
     public void deleteById(Long id) {
         super.deleteByID(id);
 
+    }
+
+    @Override
+    public Owner findByLastName(String lastName) {
+        return null;
     }
 }
