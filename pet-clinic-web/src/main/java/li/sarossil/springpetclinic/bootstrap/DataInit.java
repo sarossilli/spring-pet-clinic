@@ -13,12 +13,14 @@ public class DataInit implements CommandLineRunner {
     public final OwnerService ownerService;
     public final VetService vetService;
 
-    public DataInit() {
-        ownerService = new OwnerServiceMapImpl();
-        vetService = new VetServiceMapImpl();
 
+    public DataInit(OwnerService ownerService, VetService vetService) {
+        this.ownerService = ownerService;
+        this.vetService = vetService;
     }
 
+
+    //May need to throw exception
     @Override
     public void run(String... args) {
         Owner owner1 = new Owner();

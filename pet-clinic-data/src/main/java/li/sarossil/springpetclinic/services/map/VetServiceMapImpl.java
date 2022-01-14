@@ -5,9 +5,11 @@ import li.sarossil.springpetclinic.model.Vet;
 import li.sarossil.springpetclinic.services.CrudService;
 import li.sarossil.springpetclinic.services.OwnerService;
 import li.sarossil.springpetclinic.services.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VetServiceMapImpl extends AbstractMap<Vet,Long> implements VetService{
 
     @Override
