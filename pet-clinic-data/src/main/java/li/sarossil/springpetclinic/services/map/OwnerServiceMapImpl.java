@@ -20,7 +20,7 @@ public class OwnerServiceMapImpl extends AbstractMap<Owner,Long> implements Owne
 
     @Override
     public Owner save(Owner item) {
-        return super.save(item.getId(),item);
+        return super.save(item);
     }
 
     @Override
